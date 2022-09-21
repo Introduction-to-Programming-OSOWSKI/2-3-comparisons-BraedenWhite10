@@ -3,9 +3,10 @@ from tkinter.tix import Y_REGION
 
 
 def greaterThan(x,y):
-    if x> y:
+    if x > y:
         return(True)
-    else: return(False)
+    else:
+        return(False)
 def lessThan(x,y):
     if x< y:
         return(True)
@@ -14,13 +15,15 @@ def lessThan(x,y):
 def equalTo(x,y):
     if x == y:
         return(True)
-    else: return(False)
+    else:
+         return(False)
 def greaterOrEqual(x,y):
     if x>= y:
         return(True)
-    else: return(False)
+    else: 
+        return(False)
 def lessOrEqual(x,y):
     if x<= y:
         return(True)
     else:
-         return(False) 
+        return(False) 
