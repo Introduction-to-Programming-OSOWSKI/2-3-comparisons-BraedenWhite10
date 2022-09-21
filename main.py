@@ -1,5 +1,5 @@
 #WRITE YOUR CODE IN THIS FILE
-from tkinter.tix import Y_REGION
+
 
 
 def greaterThan(x,y):
@@ -8,7 +8,7 @@ def greaterThan(x,y):
     else:
         return(False)
 def lessThan(x,y):
-    if x< y:
+    if  x<y:  
         return(True)
     else:
          return(False)
